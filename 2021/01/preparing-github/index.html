@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<meta property="og:title" content="Preparing GitHub" />
+<meta property="og:description" content="You need to create a new repository in GitHub, install Git and configure SSH key in GitHub.
+Creating a new repository in GitHub   Navigate to https://github.com/ to register a new GitHub account.
+  Create a new repository.
+Note: Your repository name must follow the format as &ldquo;your-account-name.github.io&rdquo;. For example, Bunny-Xiangli." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://DocWeb-new-structure.github.io/2021/01/preparing-github/" />
+<meta property="article:published_time" content="2021-01-17T20:56:13+08:00" />
+<meta property="article:modified_time" content="2021-01-17T20:56:13+08:00" />
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Preparing GitHub"/>
+<meta name="twitter:description" content="You need to create a new repository in GitHub, install Git and configure SSH key in GitHub.
+Creating a new repository in GitHub   Navigate to https://github.com/ to register a new GitHub account.
+  Create a new repository.
+Note: Your repository name must follow the format as &ldquo;your-account-name.github.io&rdquo;. For example, Bunny-Xiangli."/>
+<meta name="generator" content="Hugo 0.80.0" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Preparing GitHub",
+  "url": "https://DocWeb-new-structure.github.io/2021/01/preparing-github/",
+  "wordCount": "190",
+  "datePublished": "2021-01-17T20:56:13+08:00",
+  "dateModified": "2021-01-17T20:56:13+08:00",
+  "author": {
+    "@type": "Person",
+    "name": "Li Xiang"
+  }
+}
+</script>
+
+
+
+    <link rel="canonical" href="https://DocWeb-new-structure.github.io/2021/01/preparing-github/">
+
+    <title>Preparing GitHub | </title>
+
+    
+    <!-- combined, minified CSS -->
+    
+    <link href="https://DocWeb-new-structure.github.io/css/style.16633182cd803b52b9bf9e29ea1ef4b2e3d460deee0ded49466d7e16e449c158.css" rel="stylesheet" integrity="sha256-FmMxgs2AO1K5v54p6h70suPUYN7uDe1JRm1&#43;FuRJwVg=" crossorigin="anonymous">
+    
+
+    <!-- minified Font Awesome for SVG icons -->
+    
+    <script defer src="https://DocWeb-new-structure.github.io/js/fontawesome.min.4ed405d7c7002b970d34cbe6026ff44a556b0808cb98a9db4008752110ed964b.js" integrity="sha256-TtQF18cAK5cNNMvmAm/0SlVrCAjLmKnbQAh1IRDtlks=" crossorigin="anonymous"></script>
+
+    <!-- RSS 2.0 feed -->
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="https://DocWeb-new-structure.github.io">Home</a>
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title" dir="auto"><a href="https://DocWeb-new-structure.github.io" rel="home"></a></h1>
+        
+      </div>
+    </header>
+    
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title" dir="auto"><a href="https://DocWeb-new-structure.github.io/2021/01/preparing-github/">Preparing GitHub</a></h2>
+    <p class="blog-post-meta">
+<time datetime="2021-01-17T20:56:13+08:00">Sun Jan 17, 2021</time>
+</p>
+  </header>
+  <p>You need to create a new repository in GitHub, install Git and configure SSH key in GitHub.</p>
+<h4 id="creating-a-new-repository-in-github">Creating a new repository in GitHub</h4>
+<ol>
+<li>
+<p>Navigate to <a href="https://github.com/">https://github.com/</a> to register a new GitHub account.</p>
+</li>
+<li>
+<p>Create a new repository.</p>
+<p><strong>Note</strong>: Your repository name must follow the format as &ldquo;your-account-name.github.io&rdquo;. For example, Bunny-Xiangli.github.io.</p>
+</li>
+</ol>
+<h4 id="installing-git">Installing Git</h4>
+<ol>
+<li>
+<p>Navigate to <a href="https://git-scm.com/downloads/">https://git-scm.com/downloads/</a> to download the Git installation package for your computer.</p>
+<p>Expected outcome:</p>
+<p>A ZIP file (for example, <em>Git-2.30.0.2-64-bit.exe</em>) is automatically downloaded.</p>
+</li>
+<li>
+<p>Un-zip the file and install Git with default configurations.</p>
+<p>Expected outcome:</p>
+<p>You can see that <strong>Git Bash</strong> and <strong>Git GUI</strong> applications are installed successfully.</p>
+</li>
+</ol>
+<h4 id="configuring-ssh-key-in-github">Configuring SSH key in GitHub</h4>
+<ol>
+<li>
+<p>Open the <strong>Git Bash</strong> application.</p>
+</li>
+<li>
+<p>Enter the command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">cd ~/.ssh
+</code></pre></div></li>
+<li>
+<p>Enter the command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">ssh-keygen -t rsa -C <span style="color:#e6db74">&#34;your-email-address&#34;</span>
+</code></pre></div><p>Expected outcome:</p>
+<p>Two files (<em>id_rsa</em> and <em>id_rsa.pub</em>) are generated in the <strong>.ssh</strong> folder under your user account.</p>
+</li>
+<li>
+<p>Log in to <a href="https://github.com/">https://github.com/</a> as your GitHub account.</p>
+</li>
+<li>
+<p>On the top-right corner, select <strong>Settings</strong> in your account drop-down menu.</p>
+</li>
+<li>
+<p>Click <strong>SSH and GPG keys</strong> on the left side panel.</p>
+</li>
+<li>
+<p>Click <strong>New SSH key</strong>  and add the content of <em>id_rsa.pub</em> file. For example, you can see the added SSH in the following image.</p>
+<p><img src="/add-ssh-key.png" alt="add ssh key"></p>
+</li>
+</ol>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fDocWeb-new-structure.github.io%2f2021%2f01%2fpreparing-github%2f" title="Share on Facebook"><span class="fab fa-facebook-f fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fDocWeb-new-structure.github.io%2f2021%2f01%2fpreparing-github%2f" title="Share on LinkedIn"><span class="fab fa-linkedin-in fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/intent/tweet?url=https%3a%2f%2fDocWeb-new-structure.github.io%2f2021%2f01%2fpreparing-github%2f&amp;text=Preparing%20GitHub" title="Tweet this"><span class="fab fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p dir="auto">
+      
+      Blog template created by <a href="https://twitter.com/mdo">@mdo</a>, ported to Hugo by <a href='https://twitter.com/mralanorth'>@mralanorth</a>.
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

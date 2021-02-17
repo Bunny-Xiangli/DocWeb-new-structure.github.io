@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<meta property="og:title" content="Building up an online website" />
+<meta property="og:description" content="Follow the instructions to build up a website:
+
+
+Navigate to the folder which contains your Markdown files (for example, D:\Hugo\bin\DocWeb\content\posts).
+
+
+Right-click and select Git Bash Here in the drop-down menu.
+
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://DocWeb-new-structure.github.io/2021/01/building-up-an-online-website/" />
+<meta property="article:published_time" content="2021-01-16T20:56:13+08:00" />
+<meta property="article:modified_time" content="2021-01-16T20:56:13+08:00" />
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Building up an online website"/>
+<meta name="twitter:description" content="Follow the instructions to build up a website:
+
+
+Navigate to the folder which contains your Markdown files (for example, D:\Hugo\bin\DocWeb\content\posts).
+
+
+Right-click and select Git Bash Here in the drop-down menu.
+
+
+"/>
+<meta name="generator" content="Hugo 0.80.0" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Building up an online website",
+  "url": "https://DocWeb-new-structure.github.io/2021/01/building-up-an-online-website/",
+  "wordCount": "215",
+  "datePublished": "2021-01-16T20:56:13+08:00",
+  "dateModified": "2021-01-16T20:56:13+08:00",
+  "author": {
+    "@type": "Person",
+    "name": "Li Xiang"
+  }
+}
+</script>
+
+
+
+    <link rel="canonical" href="https://DocWeb-new-structure.github.io/2021/01/building-up-an-online-website/">
+
+    <title>Building up an online website | </title>
+
+    
+    <!-- combined, minified CSS -->
+    
+    <link href="https://DocWeb-new-structure.github.io/css/style.16633182cd803b52b9bf9e29ea1ef4b2e3d460deee0ded49466d7e16e449c158.css" rel="stylesheet" integrity="sha256-FmMxgs2AO1K5v54p6h70suPUYN7uDe1JRm1&#43;FuRJwVg=" crossorigin="anonymous">
+    
+
+    <!-- minified Font Awesome for SVG icons -->
+    
+    <script defer src="https://DocWeb-new-structure.github.io/js/fontawesome.min.4ed405d7c7002b970d34cbe6026ff44a556b0808cb98a9db4008752110ed964b.js" integrity="sha256-TtQF18cAK5cNNMvmAm/0SlVrCAjLmKnbQAh1IRDtlks=" crossorigin="anonymous"></script>
+
+    <!-- RSS 2.0 feed -->
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="https://DocWeb-new-structure.github.io">Home</a>
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title" dir="auto"><a href="https://DocWeb-new-structure.github.io" rel="home"></a></h1>
+        
+      </div>
+    </header>
+    
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title" dir="auto"><a href="https://DocWeb-new-structure.github.io/2021/01/building-up-an-online-website/">Building up an online website</a></h2>
+    <p class="blog-post-meta">
+<time datetime="2021-01-16T20:56:13+08:00">Sat Jan 16, 2021</time>
+</p>
+  </header>
+  <p>Follow the instructions to build up a website:</p>
+<ol>
+<li>
+<p>Navigate to the folder which contains your Markdown files (for example, <em>D:\Hugo\bin\DocWeb\content\posts</em>).</p>
+</li>
+<li>
+<p>Right-click and select <strong>Git Bash Here</strong> in the drop-down menu.</p>
+<p><img src="/git-bash-here.png" alt="git bash here"></p>
+</li>
+</ol>
+<ol start="3">
+<li>
+<p>To link your theme with the GitHub repository, enter the command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">hugo  --theme<span style="color:#f92672">=</span>your-github-theme --baseUrl<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://your-github-name.github.io&#34;</span>
+</code></pre></div><p>For example:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">hugo --theme<span style="color:#f92672">=</span>hugo-theme-bootstrap4-blog --baseUrl<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://bunny-xiangli.github.io/&#34;</span>
+</code></pre></div><p>Expected outcome:</p>
+<p>A <strong>public</strong> folder is created under your Hugo site folder, with multiple sub-folders and files used for generating HTML.</p>
+<p><img src="/public-folder.png" alt="public folder"></p>
+</li>
+<li>
+<p>To navigate to the <strong>public</strong> folder, enter the command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">cd public
+</code></pre></div></li>
+<li>
+<p>To initiate GitHub, enter the command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git init
+</code></pre></div></li>
+<li>
+<p>To add your local files to GitHub repository, enter the command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git add .
+</code></pre></div></li>
+<li>
+<p>To commit files in Git repository, enter the command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git commit -m <span style="color:#e6db74">&#39;first commit&#39;</span>
+</code></pre></div><p>In the command, you can replace <em>first commit</em> with your own descriptions.</p>
+</li>
+<li>
+<p>To create the connection between your local and GitHub repositories , enter the command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git remote add origin your-git-repsitory-name
+</code></pre></div><p>For example:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git remote add origin https://github.com/Bunny-Xiangli/Bunny-Xiangli.github.io.git
+</code></pre></div></li>
+<li>
+<p>To push your website to GitHub, enter the command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git push -u  origin master 
+</code></pre></div></li>
+<li>
+<p>In your GitHub repository, go to <strong>Settings</strong> , and scroll down to find the <strong>GitHub Pages</strong> area.</p>
+</li>
+<li>
+<p>Select <strong>Branch:master</strong> in the drop-down menu and click <strong>Save</strong>.</p>
+<p><img src="/github-pages-setting.png" alt="github pages setting"></p>
+</li>
+<li>
+<p>Navigate to the website of your <strong>GitHub Pages</strong> (for example, <a href="https://bunny-xiangli.github.io/)">https://bunny-xiangli.github.io/)</a>.</p>
+<p>Expected outcome:</p>
+<p>You can view the online website successfully.</p>
+</li>
+</ol>
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fDocWeb-new-structure.github.io%2f2021%2f01%2fbuilding-up-an-online-website%2f" title="Share on Facebook"><span class="fab fa-facebook-f fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fDocWeb-new-structure.github.io%2f2021%2f01%2fbuilding-up-an-online-website%2f" title="Share on LinkedIn"><span class="fab fa-linkedin-in fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/intent/tweet?url=https%3a%2f%2fDocWeb-new-structure.github.io%2f2021%2f01%2fbuilding-up-an-online-website%2f&amp;text=Building%20up%20an%20online%20website" title="Tweet this"><span class="fab fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p dir="auto">
+      
+      Blog template created by <a href="https://twitter.com/mdo">@mdo</a>, ported to Hugo by <a href='https://twitter.com/mralanorth'>@mralanorth</a>.
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

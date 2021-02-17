@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>https://DocWeb-new-structure.github.io/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Jan 2021 20:56:13 +0800</lastBuildDate><atom:link href="https://DocWeb-new-structure.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Preparing Hugo to generate a local website</title>
+      <link>https://DocWeb-new-structure.github.io/2021/01/preparing-hugo-to-generate-a-local-website/</link>
+      <pubDate>Sat, 16 Jan 2021 20:56:13 +0800</pubDate>
+      
+      <guid>https://DocWeb-new-structure.github.io/2021/01/preparing-hugo-to-generate-a-local-website/</guid>
+      <description>You need to download and install Hugo, create a new website, and then add a theme. Afterwards, you can generate a local website with Markdown files.
+Downloading Hugo   Navigate to https://gohugo.io/ and click Quick Start.
+  Click the install hyperlink to navigate to the Install Hugo page.</description>
+    </item>
+    
+    <item>
+      <title>Preparing GitHub</title>
+      <link>https://DocWeb-new-structure.github.io/2021/01/preparing-github/</link>
+      <pubDate>Sun, 17 Jan 2021 20:56:13 +0800</pubDate>
+      
+      <guid>https://DocWeb-new-structure.github.io/2021/01/preparing-github/</guid>
+      <description>You need to create a new repository in GitHub, install Git and configure SSH key in GitHub.
+Creating a new repository in GitHub   Navigate to https://github.com/ to register a new GitHub account.
+  Create a new repository.
+Note: Your repository name must follow the format as &amp;ldquo;your-account-name.github.io&amp;rdquo;. For example, Bunny-Xiangli.</description>
+    </item>
+    
+    <item>
+      <title>Building up an online website</title>
+      <link>https://DocWeb-new-structure.github.io/2021/01/building-up-an-online-website/</link>
+      <pubDate>Sat, 16 Jan 2021 20:56:13 +0800</pubDate>
+      
+      <guid>https://DocWeb-new-structure.github.io/2021/01/building-up-an-online-website/</guid>
+      <description>&lt;p&gt;Follow the instructions to build up a website:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Navigate to the folder which contains your Markdown files (for example, &lt;em&gt;D:\Hugo\bin\DocWeb\content\posts&lt;/em&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Right-click and select &lt;strong&gt;Git Bash Here&lt;/strong&gt; in the drop-down menu.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://DocWeb-new-structure.github.io/git-bash-here.png&#34; alt=&#34;git bash here&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<meta property="og:title" content="Preparing Hugo to generate a local website" />
+<meta property="og:description" content="You need to download and install Hugo, create a new website, and then add a theme. Afterwards, you can generate a local website with Markdown files.
+Downloading Hugo   Navigate to https://gohugo.io/ and click Quick Start.
+  Click the install hyperlink to navigate to the Install Hugo page." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://DocWeb-new-structure.github.io/2021/01/preparing-hugo-to-generate-a-local-website/" />
+<meta property="article:published_time" content="2021-01-16T20:56:13+08:00" />
+<meta property="article:modified_time" content="2021-01-16T20:56:13+08:00" />
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Preparing Hugo to generate a local website"/>
+<meta name="twitter:description" content="You need to download and install Hugo, create a new website, and then add a theme. Afterwards, you can generate a local website with Markdown files.
+Downloading Hugo   Navigate to https://gohugo.io/ and click Quick Start.
+  Click the install hyperlink to navigate to the Install Hugo page."/>
+<meta name="generator" content="Hugo 0.80.0" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Preparing Hugo to generate a local website",
+  "url": "https://DocWeb-new-structure.github.io/2021/01/preparing-hugo-to-generate-a-local-website/",
+  "wordCount": "471",
+  "datePublished": "2021-01-16T20:56:13+08:00",
+  "dateModified": "2021-01-16T20:56:13+08:00",
+  "author": {
+    "@type": "Person",
+    "name": "Li Xiang"
+  }
+}
+</script>
+
+
+
+    <link rel="canonical" href="https://DocWeb-new-structure.github.io/2021/01/preparing-hugo-to-generate-a-local-website/">
+
+    <title>Preparing Hugo to generate a local website | </title>
+
+    
+    <!-- combined, minified CSS -->
+    
+    <link href="https://DocWeb-new-structure.github.io/css/style.16633182cd803b52b9bf9e29ea1ef4b2e3d460deee0ded49466d7e16e449c158.css" rel="stylesheet" integrity="sha256-FmMxgs2AO1K5v54p6h70suPUYN7uDe1JRm1&#43;FuRJwVg=" crossorigin="anonymous">
+    
+
+    <!-- minified Font Awesome for SVG icons -->
+    
+    <script defer src="https://DocWeb-new-structure.github.io/js/fontawesome.min.4ed405d7c7002b970d34cbe6026ff44a556b0808cb98a9db4008752110ed964b.js" integrity="sha256-TtQF18cAK5cNNMvmAm/0SlVrCAjLmKnbQAh1IRDtlks=" crossorigin="anonymous"></script>
+
+    <!-- RSS 2.0 feed -->
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="https://DocWeb-new-structure.github.io">Home</a>
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title" dir="auto"><a href="https://DocWeb-new-structure.github.io" rel="home"></a></h1>
+        
+      </div>
+    </header>
+    
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title" dir="auto"><a href="https://DocWeb-new-structure.github.io/2021/01/preparing-hugo-to-generate-a-local-website/">Preparing Hugo to generate a local website</a></h2>
+    <p class="blog-post-meta">
+<time datetime="2021-01-16T20:56:13+08:00">Sat Jan 16, 2021</time>
+</p>
+  </header>
+  <p>You need to download and install Hugo, create a new website, and then add a theme. Afterwards, you can generate a local website with Markdown files.</p>
+<h4 id="downloading-hugo">Downloading Hugo</h4>
+<ol>
+<li>
+<p>Navigate to <a href="https://gohugo.io/">https://gohugo.io/</a> and click <strong>Quick Start</strong>.</p>
+</li>
+<li>
+<p>Click the <strong>install</strong> hyperlink to navigate to the <strong>Install Hugo</strong> page.</p>
+</li>
+<li>
+<p>Click the <strong>Hugo Releases</strong> hyperlink to navigate to the GitHub page.</p>
+</li>
+<li>
+<p>Scroll down to the <strong>Assets</strong> area to find the Hugo installation package for your computer.</p>
+<p>For example, the Hugo installation package for 64-bit Windows operating system:</p>
+<p><img src="/hugo-for-Windows-64-bit.png" alt="hugo for Windows 64-bit"></p>
+</li>
+<li>
+<p>Save the downloaded ZIP file and un-zip the file in your local computer.</p>
+</li>
+</ol>
+<h4 id="installing-hugo">Installing Hugo</h4>
+<ol>
+<li>
+<p>Open the Hugo installation package folder and you can see the following three files.</p>
+<p><img src="/3-hugo-files.png" alt="3 hugo files"></p>
+</li>
+<li>
+<p>Copy the <em>hugo.exe</em> file to a newly created folder.</p>
+<p><strong>Note</strong>: Do not use space or non-English language words in the folder name or the upper level folders. For example, you can create a new folder as <em>D:\Hugo\bin</em>.</p>
+</li>
+<li>
+<p>Open the computer <strong>cmd</strong> command panel and navigate to the new folder you just created.</p>
+</li>
+<li>
+<p>Type <strong>hugo</strong> in the <strong>cmd</strong> command line and press <strong>Enter</strong>.</p>
+<p>Expected outcome:</p>
+<p>You may see the following error message and you can ignore it.</p>
+<p><code>Error: Unable to locate config file or config directory. Perhaps you need to create a new site. Run &quot;hugo help new&quot; for details.</code></p>
+</li>
+<li>
+<p>Set the environment variable by adding the path of the new folder where the <em>hugo.exe</em> file exists.</p>
+</li>
+<li>
+<p>To verify hugo installation, open a new <strong>cmd</strong> command panel and type <strong>hugo version</strong>.</p>
+<p>Expected outcome:</p>
+<p>Hugo version is displayed. It means that Hugo is installed successfully.</p>
+</li>
+</ol>
+<h4 id="creating-a-new-site">Creating a new site</h4>
+<ol>
+<li>
+<p>Open the computer <strong>cmd</strong> command panel and navigate to the new folder containing the <em>hugo.exe</em> file. For example,  <em>D:\Hugo\bin</em>.</p>
+</li>
+<li>
+<p>To create a new site, enter the command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">hugo new site your-new-site-name
+</code></pre></div><p>For example:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">hugo new site DocWeb
+</code></pre></div><p>Expected outcome:</p>
+<p>A new folder named as <em>your-new-site-name</em> (for example, <em>DocWeb</em>) is created, with multiple folders and files inside.</p>
+</li>
+</ol>
+<h4 id="adding-a-theme">Adding a theme</h4>
+<ol>
+<li>
+<p>Navigate to <a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a> to find a theme you like.</p>
+</li>
+<li>
+<p>Click the theme to download a ZIP file to your local computer, and un-zip the theme ZIP file.</p>
+</li>
+<li>
+<p>Copy the theme file to the <strong>themes</strong> folder which is created in <a href="#creating-a-new-site">Creating a new site</a>.</p>
+</li>
+<li>
+<p>To use the theme format, copy three items (<em>content</em>, <em>static</em> and <em>config.toml</em>) in the <strong>exampleSite</strong> folder of the <strong>themes</strong> folder, and overwrite the three same items in the upper level folder which is rooted under your new site folder.</p>
+<p><img src="/copying-theme-files.png" alt="copying theme files"></p>
+</li>
+</ol>
+<h4 id="preparing-markdown-files">Preparing Markdown files</h4>
+<ol>
+<li>
+<p>Navigate to the <strong>content</strong> folder which is rooted under your new site folder.</p>
+</li>
+<li>
+<p>Edit the Markdown files.</p>
+<p><strong>Note</strong>: You can edit Markdown files by checking the instructions in <a href="https://www.jianshu.com/p/191d1e21f7ed/">Markdown instructions</a>.</p>
+</li>
+</ol>
+<h4 id="generating-a-local-website">Generating a local website</h4>
+<ol>
+<li>
+<p>Open the computer <strong>cmd</strong> command panel and navigate to the new folder containing the <em>hugo.exe</em> file. For example,  <em>D:\Hugo\bin</em>.</p>
+</li>
+<li>
+<p>Type the command line:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">hugo server
+</code></pre></div><p>Expected outcome:</p>
+<p>You can view your website through <a href="localhost:1313">localhost:1313</a>.</p>
+</li>
+</ol>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fDocWeb-new-structure.github.io%2f2021%2f01%2fpreparing-hugo-to-generate-a-local-website%2f" title="Share on Facebook"><span class="fab fa-facebook-f fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fDocWeb-new-structure.github.io%2f2021%2f01%2fpreparing-hugo-to-generate-a-local-website%2f" title="Share on LinkedIn"><span class="fab fa-linkedin-in fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/intent/tweet?url=https%3a%2f%2fDocWeb-new-structure.github.io%2f2021%2f01%2fpreparing-hugo-to-generate-a-local-website%2f&amp;text=Preparing%20Hugo%20to%20generate%20a%20local%20website" title="Tweet this"><span class="fab fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p dir="auto">
+      
+      Blog template created by <a href="https://twitter.com/mdo">@mdo</a>, ported to Hugo by <a href='https://twitter.com/mralanorth'>@mralanorth</a>.
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>
